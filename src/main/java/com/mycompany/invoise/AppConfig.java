@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @ComponentScan(basePackages = {"com.mycompany.invoise.controller.web","com.mycompany.invoise.service.prefix","com.mycompany.invoise.repository.memory"})
-//@PropertySource("classpath:application.properties")
-@ImportResource("classpath:applicationContext.xml")
+@PropertySource("classpath:application.properties")
+//@ImportResource("classpath:applicationContext.xml")
 public class AppConfig {
 }
